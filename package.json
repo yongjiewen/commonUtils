@@ -3,11 +3,13 @@
   "private": false,
   "version": "0.0.1",
   "author": "jack",
-  "type": "module",
   "main": "dist/common-utils.umd.js",
   "module": "dist/common-utils.es.js",
   "types": "dist/index.d.ts",
-  "files": ["dist","types/*"],
+  "files": [
+    "dist",
+    "types/*"
+  ],
   "typings": "./types/",
   "keywords": [
     "js",
@@ -20,12 +22,16 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build --config vite.config.ts",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "devDependencies": {
     "@types/node": "^20.8.7",
     "typescript": "^5.0.2",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "vuepress": "^1.9.10"
   },
   "dependencies": {
     "@scqilin/vite-ts-lib": "^0.0.2",
