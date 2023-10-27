@@ -25,7 +25,7 @@ module.exports = {
         {
           title: "开始",
           children: ["/docsFile/start"],
-          initialOpenGroupIndex: 1
+          // initialOpenGroupIndex: 1
         }
       ]
     }

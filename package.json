@@ -1,23 +1,26 @@
 {
-  "name": "@tool/common-utils",
+  "name": "tool-common-utils",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.5",
   "author": "jack",
-  "main": "dist/common-utils.umd.js",
-  "module": "dist/common-utils.es.js",
-  "types": "dist/index.d.ts",
+  "description": "",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "types": "dist/main.d.ts",
   "files": [
     "dist",
     "types/*"
   ],
-  "typings": "./types/",
+  "typings": "dist/index.d.ts",
   "keywords": [
     "js",
     "ts",
     "javascript",
     "typescript",
     "utils",
-    "工具函数"
+    "工具函数",
+    "tool",
+    "commonUtils"
   ],
   "scripts": {
     "dev": "vite",
@@ -36,5 +39,26 @@
   "dependencies": {
     "@scqilin/vite-ts-lib": "^0.0.2",
     "vite-plugin-dts": "^3.5.2"
-  }
+  },
+
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.umd.js",
+      "require": "./dist/index.cjs.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yongjiewen/commonUtils.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yongjiewen/commonUtils/issues"
+  },
+  "homepage": "https://yongjiewen.github.io/commonUtils"
 }

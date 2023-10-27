@@ -10,8 +10,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: "src/main.ts",
-      name: "common-utils", // 工具库名称
-      fileName: (format) => `common-utils.${format}.js`,
+      name: "commonUtils", // 工具库名称
+      fileName: (format) => `index.${format}.js`,
       formats: ['es', 'cjs', 'umd'],
     },
     rollupOptions: {
