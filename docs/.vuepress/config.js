@@ -22,11 +22,13 @@ module.exports = {
     ],
     sidebar: {
       '/docsFile/': [
-        {
-          title: "开始",
-          children: ["/docsFile/start"],
-          // initialOpenGroupIndex: 1
-        }
+        // {
+        //   title: "开始",
+        //   children: ["/docsFile/start",'/docsFile/store'],
+        //   // initialOpenGroupIndex: 1
+        // }
+        "/docsFile/start",
+        '/docsFile/store'
       ]
     }
   }

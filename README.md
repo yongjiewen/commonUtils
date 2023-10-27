@@ -28,3 +28,7 @@ commonUtils.Local.set('name','value...')
 <script src="https://cdn.jsdelivr.net/npm/tool-common-utils/dist/index.umd.js"></script>
 <script >commonUtils.Local.set('name','value...')</script>
 ```
+
+## API DOCS
+
+[commonUtils 文档](https://yongjiewen.github.io/commonUtils/)
