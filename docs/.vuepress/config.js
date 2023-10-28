@@ -28,7 +28,8 @@ module.exports = {
         //   // initialOpenGroupIndex: 1
         // }
         "/docsFile/start",
-        '/docsFile/store'
+        '/docsFile/store',
+        '/docsFile/time',
       ]
     }
   }
