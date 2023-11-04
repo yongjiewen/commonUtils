@@ -30,6 +30,7 @@ module.exports = {
         "/docsFile/start",
         '/docsFile/store',
         '/docsFile/time',
+        '/docsFile/dom',
       ]
     }
   }

@@ -1,4 +1,4 @@
-# 浏览器存储
+# 浏览器相关
 > 操作浏览的存储localStorage、sessionStorage、Cookie、indexedDb
 
 ## Local (localStorage)

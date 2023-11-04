@@ -1,7 +1,7 @@
 {
   "name": "tool-common-utils",
   "private": false,
-  "version": "0.0.5",
+  "version": "0.0.7",
   "author": "jack",
   "description": "",
   "main": "dist/index.umd.js",
