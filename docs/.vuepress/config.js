@@ -1,6 +1,6 @@
 module.exports = {
   title: "js工具库",
-  base: "/commonUtils/",
+  base: "/",
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],

@@ -12,7 +12,7 @@ features:
   details: 按需使用, 不产生冗余代码
 - title: 多平台
   details: 同样的API,支持node和浏览器
-footer: Copyright © 2023
+# footer: Copyright © 备案号 [粤ICP备2022017345号-1](https://beian.miit.gov.cn/)
 ---
 
 
@@ -44,3 +44,7 @@ commonUtils.Local.set('name','value...')
 <script src="https://cdn.jsdelivr.net/npm/tool-common-utils/dist/index.umd.js"></script>
 <script >commonUtils.Local.set('name','value...')</script>
 ```
+
+::: slot footer
+Copyright © 2022-至今 [备案号: 粤ICP备2022017345号-1](https://beian.miit.gov.cn/)
+:::
