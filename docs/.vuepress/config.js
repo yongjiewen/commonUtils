@@ -31,6 +31,7 @@ module.exports = {
         '/docsFile/store',
         '/docsFile/time',
         '/docsFile/dom',
+        '/docsFile/eventBus',
       ]
     }
   }
